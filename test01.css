@@ -112,6 +112,16 @@
         -moz-text-align-last: center;
         -ms-text-align-last: center; 
     }
+    /* remove input arrow  - Chrome, Safari, Edge, Opera */
+    .notes[type=number]::-webkit-outer-spin-button,
+    .notes[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* remove input arrow - Firefox */
+    .notes[type=number] {
+        -moz-appearance: textfield;
+    }
 
     .add img, .less img{
         width: 22px;
