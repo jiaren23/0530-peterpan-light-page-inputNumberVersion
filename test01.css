@@ -107,7 +107,10 @@
         background-color: #bf9d6d;
         margin-left:3px ;
         margin-right:3px;
-        text-align-last:center; /* center select text */   
+        text-align-last:center; /* center select text */ 
+        -webkit-text-align-last: center;
+        -moz-text-align-last: center;
+        -ms-text-align-last: center; 
     }
 
     .add img, .less img{
